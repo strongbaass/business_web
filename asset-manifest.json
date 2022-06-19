@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/business_web/static/css/main.1d7e02fd.css",
+    "main.js": "/business_web/static/js/main.d40e4373.js",
+    "static/media/DashboardLightFull.png": "/business_web/static/media/DashboardLightFull.e92320519038530ef5d2.png",
+    "static/media/DashboardDark.png": "/business_web/static/media/DashboardDark.bb050cc5daca04b11017.png",
+    "static/media/DashboardLight.png": "/business_web/static/media/DashboardLight.a71e44f04609d4630c4c.png",
+    "static/media/Protect Cloud.svg": "/business_web/static/media/Protect Cloud.ac030a6b8b6701cc8f8d6320c91217af.svg",
+    "static/media/Cloud.svg": "/business_web/static/media/Cloud.76172270ad0b9c812720db09ac54f93c.svg",
+    "static/media/Secure.svg": "/business_web/static/media/Secure.23d0a705c077b0af9befaaaf416be410.svg",
+    "static/media/Star.svg": "/business_web/static/media/Star.e420573ecbca2df61650646fd31358b2.svg",
+    "static/media/Target.svg": "/business_web/static/media/Target.b0eb7beb68ac3c42a7487d091d146259.svg",
+    "static/media/xmark.svg": "/business_web/static/media/xmark.6837248f26b4746bca22dce7c606b744.svg",
+    "static/media/barssolid.svg": "/business_web/static/media/barssolid.4de0b64b468d9cdbdd41f4d490765099.svg",
+    "index.html": "/business_web/index.html",
+    "static/media/blacktick.svg": "/business_web/static/media/blacktick.b07a68e54641e9fa2b4413093eeebab9.svg",
+    "static/media/tick.svg": "/business_web/static/media/tick.f177db3af60161c3dbab86119543cd7d.svg",
+    "static/media/whitetick.svg": "/business_web/static/media/whitetick.1e8cecd0e964233bf0cf2fd265010e97.svg",
+    "main.1d7e02fd.css.map": "/business_web/static/css/main.1d7e02fd.css.map",
+    "main.d40e4373.js.map": "/business_web/static/js/main.d40e4373.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1d7e02fd.css",
+    "static/js/main.d40e4373.js"
+  ]
+}
