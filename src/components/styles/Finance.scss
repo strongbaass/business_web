@@ -51,6 +51,10 @@
         cursor: pointer;
         margin-right: 25px;
     }
+    .finance_info_button:hover{
+        transition: 0.5s;
+        box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+    }
 }
     .finance_img_dashboard{
         margin-top: 120px;

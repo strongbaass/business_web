@@ -59,6 +59,9 @@
     }
     }
 }
+.standart_selector_wrapper:hover{
+    transition: 1s;
+}
 .standart_selector_wrapper.active {
     background-color: #00218F;
     color: #FFFFFF;
