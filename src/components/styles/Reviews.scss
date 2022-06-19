@@ -1,0 +1,115 @@
+@import './styles.scss';
+
+.reviews_obolo{
+    height: 700px;
+}
+.reviews_info{
+    display: flex;
+    .reviews_info_title{
+        margin-top: 100px;
+        margin-left: 130px;
+    }
+    .reviews_info_wrapper{
+        margin-left: 120px;
+        margin-top: 60px;
+        background-color: #FFFFFF;
+        // flex-basis: 25%;
+        height: 380px;
+        width: 20%;
+        border-radius: 14px;
+        box-shadow: 0px 10px 56px rgba(0, 0, 0, 0.05);
+     
+        .reviews_info_about_describe{
+            display: flex;
+            padding-top: 35px;
+            padding-left: 35px;
+                .reviews_info_about_guy{
+                margin-left: 20px;
+                display: block;
+                text-align: left;
+                .reviews_info_about_name{
+                    font-size: 1.1rem;
+                    margin-top: 13px;
+                    display: flex;
+                   
+                }
+                .reviews_info_about_role{
+                    margin-top: 5px;
+                    color: #969696;
+                    display: flex;
+                    align-items: center;
+                } 
+            }
+        }
+        .reviews_info_review{
+            font-size: 0.87rem;
+            line-height: 20px;
+            color: #969696;
+            margin: 25px 30px;
+            
+        }
+        
+    }
+    .review_info_rate{
+        margin-left: 25px;
+        display: flex;
+        align-items:center;
+    }
+}
+
+@media (max-width: 1500px) {
+  .reviews_info_about_guy_avatar{
+    width: 50px;
+    height: 50px;
+  }
+  .reviews_info_review_text{
+    line-height: auto;
+    font-size: 0.75rem;
+  }
+  .reviews_info_about_role{
+    font-size: 1rem;
+  }
+}
+@media (max-width: 1150px) {
+  .reviews_info{
+     .reviews_info_wrapper{
+    width: 30%;
+    height: 340px;
+    margin-left: 30px;
+    }
+  }
+}
+@media (max-width: 1000px) {
+  .reviews_info{
+
+    .reviews_info_wrapper{
+   width: 30%;
+   height: 390px;
+   margin-left: 20px;
+
+   .reviews_info_about_describe{
+     padding-top: 20px;
+
+      .reviews_info_about_guy{
+
+        }
+      .reviews_info_about_name{
+        font-size: 1;
+      }
+      }
+    }
+    .reviews_info_review{
+      align-items: center;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .reviews_info{
+    display: block;
+    
+    .reviews_info_wrapper{
+     display: none;
+    }
+  }
+}

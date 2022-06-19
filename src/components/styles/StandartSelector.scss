@@ -1,0 +1,117 @@
+@import './styles.scss';
+.standart_selector_wrapper{
+    background-color: #FFFFFF;
+    flex-basis: 25%;
+    height: 720px;
+    border-radius: 14px;
+    box-shadow: 0px 10px 56px rgba(0, 0, 0, 0.05);
+    .standart_selector_info{
+        padding-top: 50px;
+        .standart_selector_title{
+            font-weight: 700;
+            font-size: 1.5rem;
+            text-align: center;
+        }
+        .standart_selector_description{
+            margin-top: 25px;
+            color: #969696;
+            text-align: center;
+        }
+        .standart_selector_price span{
+            color: #969696;
+            margin-left: 5px;
+        }
+        .standart_selector_price{
+            justify-content: center;
+            align-items: flex-end;
+            display: flex;
+            margin-top: 36px;
+            text-align: center;
+            .standart_selector_value{
+                font-size: 3.2rem;
+            }
+        }
+    }
+    .standart_selector_btn{
+        margin: 40px 40px;
+        display: block;
+        cursor: pointer;
+        height: 48px;
+        width: 336px;
+        background: #00218F;
+        color: white;
+        font-size: 1rem;
+        border: none;
+        border-radius: 8px;
+    }
+   
+    .standart_selector_ul{
+        margin-left: 2.8rem;
+        margin-top: 50px;
+        display: block;
+        align-items: center;
+    .standart_selector_list{
+        margin-top: 25px;
+        display: flex;
+        .standart_list_text{
+            margin-left: 10px;
+        }
+    }
+    }
+}
+.standart_selector_wrapper.active {
+    background-color: #00218F;
+    color: #FFFFFF;
+}
+.standart_selector_description.active{
+    color: #FFFFFF;
+}
+.standart_selector_wrapper.active  .standart_selector_btn{
+    background-color: #FFFFFF;
+    color: #00218F;
+}
+@media (max-width: 1350px) {
+    .standart_selector_wrapper{
+        flex-basis: 20%;
+        .standart_selector_btn{
+            width: 300px;
+        }
+    }
+}
+@media (max-width:1190px) {
+    .standart_selector_wrapper{
+        flex-basis: 20%;
+    
+        .standart_selector_description{
+            font-size: 0.9rem;
+        }
+        .standart_selector_btn{
+            width: 250px;
+        }
+    }
+}
+@media (max-width: 1000px) {
+    .standart_selector_wrapper{
+        display: block;
+    
+        .standart_selector_description{
+            padding:0px 10px;
+            font-size: 0.9rem;
+        }
+        .standart_selector_btn{
+            width: 150px;
+        }
+    }
+}
+@media (max-width: 750px) {
+    .standart_selector_wrapper{
+        display: block;
+        .standart_selector_info{
+            display: block;
+        }
+        .standart_selector_btn{
+            width: 90%;
+            justify-content: center;
+        }
+    }
+}

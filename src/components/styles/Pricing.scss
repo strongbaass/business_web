@@ -1,0 +1,111 @@
+@import './styles.scss';
+.pricing_info{
+    background-color: #FCFCFD;
+    .pricing_info_text{
+        .pricing_info_title{
+          padding-top: 125px;
+            display: flex;
+            align-self: center;
+            justify-content: center;
+            font-size: 3.2rem;
+            color: #0C0047;
+        }
+        .pricing_info_description{
+            margin-top: 40px;
+            display: flex;
+            justify-content: center;
+            align-self: center;
+            font-size: 0.8rem;
+            color: #969696;
+
+        }
+    }
+    .pricing_info_selector{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 45px;
+        padding-bottom: 36px;
+        .pricing_info_monthly{
+            margin-right: 24px;
+        }
+        .pricing_info_annualy{
+            margin-left: 24px;
+        }
+        .switch {
+            position: relative;
+            display: inline-block;
+            width: 100px;
+            height: 45px;
+          }
+          
+          .switch input { 
+            opacity: 0;
+            width: 0;
+            height: 0;
+          }
+          
+          .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #F2F2FF;
+            -webkit-transition: .4s;
+            transition: .4s;
+          }
+          
+          .slider:before {
+            position: absolute;
+            align-items:center;
+            justify-content:center;
+            content: "";
+            height: 32px;
+            width: 32px;
+            left: 5px;
+            top: 6px;
+            background-color: #152C5B;
+            -webkit-transition: .4s;
+            transition: .4s;
+          }
+          
+          input:checked + .slider {
+            background-color: #F2F2FF;
+          }
+          
+          input:focus + .slider {
+            box-shadow: 0 0 1px #2196F3;
+          }
+          
+          input:checked + .slider:before {
+            -webkit-transform: translateX(56px);
+            -ms-transform: translateX(56px);
+            transform: translateX(56px);
+          }
+          .slider.round {
+            border-radius: 38px;
+          }
+          
+          .slider.round:before {
+            border-radius: 50%;
+          }
+    }
+}
+  .pricing_selectors{
+      justify-content: space-evenly;
+      display: flex;
+      padding-bottom: 50px;
+    }
+
+@media (max-width: 750px) {
+  .pricing_info_description{
+    margin: 0px 20px;
+    line-height: 20px;
+    text-align: center;
+  }
+  .pricing_selectors{
+    display: block;
+  }
+}
