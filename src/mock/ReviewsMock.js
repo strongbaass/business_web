@@ -24,47 +24,4 @@ export const ReviewsMock = [
         role: 'Manager',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In pharetra bibendum feugiat diam egestas ornare quisque tincidunt. Ipsum tortor, pretium lectus urna felis condimentum cursus at. Platea a, pulvinar lacinia id. Augue tortor nunc, ultrices nam in augue a.',
     },
-    // {
-    //     id: 4,
-    //     avatar: '../img/alfred.png',
-    //     name: 'Alfred Walton',
-    //     role: 'Manager',
-    //     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In pharetra bibendum feugiat diam egestas ornare quisque tincidunt. Ipsum tortor, pretium lectus urna felis condimentum cursus at. Platea a, pulvinar lacinia id. Augue tortor nunc, ultrices nam in augue a.',
-    // },
-    // {
-    //     id: 5,
-    //     avatar: '../img/alfred.png',
-    //     name: 'Alfred Walton',
-    //     role: 'Manager',
-    //     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In pharetra bibendum feugiat diam egestas ornare quisque tincidunt. Ipsum tortor, pretium lectus urna felis condimentum cursus at. Platea a, pulvinar lacinia id. Augue tortor nunc, ultrices nam in augue a.',
-    // },
-    // {
-    //     id: 6,
-    //     avatar: '../img/alfred.png',
-    //     name: 'Alfred Walton',
-    //     role: 'Manager',
-    //     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In pharetra bibendum feugiat diam egestas ornare quisque tincidunt. Ipsum tortor, pretium lectus urna felis condimentum cursus at. Platea a, pulvinar lacinia id. Augue tortor nunc, ultrices nam in augue a.',
-    // },
-    // {
-    //     id: 7,
-    //     avatar: '../img/alfred.png',
-    //     name: 'Alfred Walton',
-    //     role: 'Manager',
-    //     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In pharetra bibendum feugiat diam egestas ornare quisque tincidunt. Ipsum tortor, pretium lectus urna felis condimentum cursus at. Platea a, pulvinar lacinia id. Augue tortor nunc, ultrices nam in augue a.',
-    // },
-    // {
-    //     id: 8,
-    //     avatar: '../img/alfred.png',
-    //     name: 'Alfred Walton',
-    //     role: 'Manager',
-    //     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In pharetra bibendum feugiat diam egestas ornare quisque tincidunt. Ipsum tortor, pretium lectus urna felis condimentum cursus at. Platea a, pulvinar lacinia id. Augue tortor nunc, ultrices nam in augue a.',
-    // },
-    // {
-    //     id: 9,
-    //     avatar: '../img/alfred.png',
-    //     name: 'Alfred Walton',
-    //     role: 'Manager',
-    //     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In pharetra bibendum feugiat diam egestas ornare quisque tincidunt. Ipsum tortor, pretium lectus urna felis condimentum cursus at. Platea a, pulvinar lacinia id. Augue tortor nunc, ultrices nam in augue a.',
-    // },
-    
 ]

@@ -15,7 +15,7 @@
         background-color: #FFFFFF;
         // flex-basis: 25%;
         height: 380px;
-        width: 100%;
+        width: 20%;
         border-radius: 14px;
         box-shadow: 0px 10px 56px rgba(0, 0, 0, 0.05);
      
@@ -106,12 +106,24 @@
 
 @media (max-width: 768px) {
   .reviews_info{
-    display: block;
+    display: flex;
     text-align: center;
-    
+    .reviews_info_title{
+      margin: 0px 20px;
+      display: flex;
+    }
     
     .reviews_info_wrapper{
-     display: none;
+      width: 30%;
+    }
+  }
+}
+@media (max-width: 700px) {
+  .reviews_info{
+    margin-left: 5%;
+    display: block;
+    .reviews_info_wrapper{
+      width: 70%;
     }
   }
 }
